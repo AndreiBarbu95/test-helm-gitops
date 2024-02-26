@@ -14,3 +14,4 @@ spec:
         name: bitnami
         namespace: flux-system
       version: "15.11.0"
+  interval: 1h0m0s
