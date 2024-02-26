@@ -13,5 +13,5 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: flux-system
-      version: "15.11.0"
+      version: "1.25.3"
   interval: 1m
