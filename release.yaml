@@ -14,10 +14,10 @@ spec:
         name: bitnami
         namespace: cluster-config
       version: "15.12.2"
-      values:
+  interval: 1m
+  values:
     # Customize your NGINX deployment here
     replicaCount: 2
     service:
       type: LoadBalancer
       port: 80
-  interval: 1m
