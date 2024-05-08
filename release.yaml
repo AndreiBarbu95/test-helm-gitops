@@ -13,7 +13,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: cluster-config
-      version: "15.12.1"
+      version: "15.12.2"
   interval: 1m
   values:
     # Customize your NGINX deployment here
