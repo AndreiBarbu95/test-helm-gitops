@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: sampleweb
+  namespace: cluster-config
+spec:
+  interval: 1m0s
+  url: oci://acr332.azurecr.io/samples/artifact
+  type: "oci"
+  secretRef:
+    name: acr-auth
